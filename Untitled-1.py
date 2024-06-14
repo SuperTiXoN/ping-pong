@@ -27,4 +27,7 @@ class Player(GameSprite):
         if key_click[K_UP]:
             self.rect.y -= self.speed
         if key_click[K_DOWN]:
-            self.rect.y -= self.speed
+            self.rect.y -= self.speed\
+
+window = display.set_mode((700, 700))
+display.set_caption("Пинг-понг")
